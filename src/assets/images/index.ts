@@ -1,3 +1,5 @@
+export {default as Logo} from '@/assets/images/logo.png';
+
 export {default as Pizza_BBQ} from '@/assets/images/pizza-bbq.png';
 export {default as Pizza_Denver_Special} from '@/assets/images/pizza-denver-special.png';
 export {default as Pizza_Pepperoni} from '@/assets/images/pizza-pepperoni.png';

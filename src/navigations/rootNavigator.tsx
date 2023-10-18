@@ -2,10 +2,12 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 import {HomeScreen} from '@/screens/home';
 import {ModalScreen} from '@/screens/modal';
+import {MenuItem} from '@/types/menuItem';
+import React from 'react';
 
 export type RootStackParamList = {
   Home: undefined;
-  Modal: undefined;
+  Modal: {item: MenuItem};
 };
 
 const RootStack = createStackNavigator<RootStackParamList>();
